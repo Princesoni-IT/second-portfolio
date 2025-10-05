@@ -51,7 +51,7 @@
        <div class="text-content"> <div class="text-1">Hello, my name is</div>
     <div class="text-2">Prince Soni</div>
     <div class="text-3">And I'm a <span class="typing"></span></div>
-    <a href="#">Hire me</a>
+    <a href="#contact">Hire me</a>
       </div>
     </div>
   </div>
@@ -67,7 +67,7 @@
         <div class="column right">
           <div class="text">I'm Prince and I'm a <span class="typing-2"></span></div>
           <p>I am a passionate and dedicated web developer and data analyst. I enjoy turning complex problems into simple, beautiful, and intuitive designs, and I love finding meaningful insights from data. I am always eager to learn new technologies and improve my skills.</p>
-          <a href="">Download CV</a>
+           <a href="Resume.pdf" download class="btn">Download CV</a>
         </div>
       </div>
     </div>
@@ -152,7 +152,7 @@
     </div>
   </section>
 
-  <section class="contact" id="contact">
+    <section class="contact" id="contact">
     <div class="max-width">
       <h2 class="title">Contact me</h2>
       <div class="contact-content">
@@ -185,7 +185,10 @@
         </div>
         <div class="column right">
           <div class="text">Message me</div>
-          <form action="#" method="POST">
+          <form action="https://api.web3forms.com/submit" method="POST" id="contact-form">
+            
+            <input type="hidden" name="access_key" value="e1143a2a-2e0e-4380-a437-424eefd417a1">
+
             <div class="fields">
               <div class="field name">
                 <input type="text" name="name" placeholder="Name" required>
@@ -204,7 +207,7 @@
               <button type="submit">Send message</button>
             </div>
           </form>
-        </div>
+          </div>
       </div>
     </div>
   </section>

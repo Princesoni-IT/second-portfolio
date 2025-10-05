@@ -70,4 +70,33 @@ $(document).ready(function() {
       }
     }
   });
+// Contact form submission aur reset ke liye code
+// $('#contact-form').on('submit', function(event) {
+//     // Browser ko form submit karne se rokein
+//     event.preventDefault();
+
+//     var form = $(this);
+//     var formData = form.serialize();
+
+//     // Form data ko AJAX ke through background me submit karein
+//     $.ajax({
+//         url: 'https://api.web3forms.com/submit',
+//         method: 'POST',
+//         data: formData,
+//         dataType: 'json',
+//         success: function(response) {
+//             // Success hone par form ko reset kar dein
+//             form[0].reset();
+
+//             // User ko success message dikhayein (Optional)
+//             alert('Thank you! Your message has been sent.');
+//         },
+//         error: function(error) {
+//             // Error hone par user ko message dikhayein (Optional)
+//             alert('Oops! Something went wrong.');
+//         }
+//     });
+// });
+
+  
 });
